@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* rntemplatestableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rntemplatestableTests.m */; };
+		00E356F31AD99517003FC87E /* KaizenCaseStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KaizenCaseStudyTests.m */; };
 		0B608512AE27480EA09F5CF9 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A7672FDE4324E2A98BE68CA /* OpenSans-SemiBold.ttf */; };
-		0C80B921A6F3F58F76C31292 /* libPods-rntemplatestable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-rntemplatestable.a */; };
+		0C80B921A6F3F58F76C31292 /* libPods-KaizenCaseStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-KaizenCaseStudy.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1B5FC5A6FAD0437EA8249278 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3223E224B366425E9B301731 /* OpenSans-Light.ttf */; };
 		522F22D934C148A593FBBA91 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61638CDE7948498AB76EDE85 /* OpenSans-Italic.ttf */; };
-		7699B88040F8A987B510C191 /* libPods-rntemplatestable-rntemplatestableTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-rntemplatestable-rntemplatestableTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-KaizenCaseStudy-KaizenCaseStudyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-KaizenCaseStudy-KaizenCaseStudyTests.a */; };
 		79C9EC091E3B4CD1B3063F68 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF6500D0D7BF4725A5C0D170 /* OpenSans-Bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		E21F40D7E87D4A8C9C73D8D9 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 193A8D10B2FC42D3990FF63B /* OpenSans-Medium.ttf */; };
@@ -29,33 +29,33 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = rntemplatestable;
+			remoteInfo = "KaizenCaseStudy";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* rntemplatestableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rntemplatestableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* KaizenCaseStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KaizenCaseStudyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* rntemplatestableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rntemplatestableTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* rntemplatestable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rntemplatestable.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rntemplatestable/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = rntemplatestable/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rntemplatestable/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rntemplatestable/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rntemplatestable/main.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* KaizenCaseStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KaizenCaseStudyTests.m"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* KaizenCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KaizenCaseStudy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "KaizenCaseStudy/AppDelegate.h"; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "KaizenCaseStudy/AppDelegate.mm"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "KaizenCaseStudy/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "KaizenCaseStudy/Info.plist"; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "KaizenCaseStudy/main.m"; sourceTree = "<group>"; };
 		193A8D10B2FC42D3990FF63B /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-rntemplatestable-rntemplatestableTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rntemplatestable-rntemplatestableTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-KaizenCaseStudy-KaizenCaseStudyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KaizenCaseStudy-KaizenCaseStudyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7672FDE4324E2A98BE68CA /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		3223E224B366425E9B301731 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-rntemplatestable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplatestable.debug.xcconfig"; path = "Target Support Files/Pods-rntemplatestable/Pods-rntemplatestable.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-rntemplatestable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplatestable.release.xcconfig"; path = "Target Support Files/Pods-rntemplatestable/Pods-rntemplatestable.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-rntemplatestable-rntemplatestableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplatestable-rntemplatestableTests.debug.xcconfig"; path = "Target Support Files/Pods-rntemplatestable-rntemplatestableTests/Pods-rntemplatestable-rntemplatestableTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-rntemplatestable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rntemplatestable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-KaizenCaseStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaizenCaseStudy.debug.xcconfig"; path = "Target Support Files/Pods-KaizenCaseStudy/Pods-KaizenCaseStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-KaizenCaseStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaizenCaseStudy.release.xcconfig"; path = "Target Support Files/Pods-KaizenCaseStudy/Pods-KaizenCaseStudy.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-KaizenCaseStudy-KaizenCaseStudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaizenCaseStudy-KaizenCaseStudyTests.debug.xcconfig"; path = "Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-KaizenCaseStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KaizenCaseStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61638CDE7948498AB76EDE85 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
 		798C97A88D504304A30581EF /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rntemplatestable/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "KaizenCaseStudy/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		85B916015AEB4EE28C9225B9 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-rntemplatestable-rntemplatestableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplatestable-rntemplatestableTests.release.xcconfig"; path = "Target Support Files/Pods-rntemplatestable-rntemplatestableTests/Pods-rntemplatestable-rntemplatestableTests.release.xcconfig"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig"; path = "Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EF6500D0D7BF4725A5C0D170 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-rntemplatestable-rntemplatestableTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-KaizenCaseStudy-KaizenCaseStudyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,20 +73,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-rntemplatestable.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-KaizenCaseStudy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* rntemplatestableTests */ = {
+		00E356EF1AD99517003FC87E /* KaizenCaseStudyTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* rntemplatestableTests.m */,
+				00E356F21AD99517003FC87E /* KaizenCaseStudyTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = rntemplatestableTests;
+			path = "KaizenCaseStudyTests";
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -97,7 +97,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* rntemplatestable */ = {
+		13B07FAE1A68108700A75B9A /* KaizenCaseStudy */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -107,7 +107,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = rntemplatestable;
+			name = "KaizenCaseStudy";
 			sourceTree = "<group>";
 		};
 		2A882AECFFB4436FBEC49616 /* Resources */ = {
@@ -129,8 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-rntemplatestable.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-rntemplatestable-rntemplatestableTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-KaizenCaseStudy.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-KaizenCaseStudy-KaizenCaseStudyTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,9 +145,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* rntemplatestable */,
+				13B07FAE1A68108700A75B9A /* KaizenCaseStudy */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* rntemplatestableTests */,
+				00E356EF1AD99517003FC87E /* KaizenCaseStudyTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -161,8 +161,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* rntemplatestable.app */,
-				00E356EE1AD99517003FC87E /* rntemplatestableTests.xctest */,
+				13B07F961A680F5B00A75B9A /* KaizenCaseStudy.app */,
+				00E356EE1AD99517003FC87E /* KaizenCaseStudyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,10 +170,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-rntemplatestable.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-rntemplatestable.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-rntemplatestable-rntemplatestableTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-rntemplatestable-rntemplatestableTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-KaizenCaseStudy.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-KaizenCaseStudy.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-KaizenCaseStudy-KaizenCaseStudyTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -181,9 +181,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* rntemplatestableTests */ = {
+		00E356ED1AD99517003FC87E /* KaizenCaseStudyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rntemplatestableTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KaizenCaseStudyTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -197,14 +197,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = rntemplatestableTests;
-			productName = rntemplatestableTests;
-			productReference = 00E356EE1AD99517003FC87E /* rntemplatestableTests.xctest */;
+			name = "KaizenCaseStudyTests";
+			productname = "KaizenCaseStudyTests";
+			productReference = 00E356EE1AD99517003FC87E /* KaizenCaseStudyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* rntemplatestable */ = {
+		13B07F861A680F5B00A75B9A /* KaizenCaseStudy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rntemplatestable" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "KaizenCaseStudy" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -218,9 +218,9 @@
 			);
 			dependencies = (
 			);
-			name = rntemplatestable;
-			productName = rntemplatestable;
-			productReference = 13B07F961A680F5B00A75B9A /* rntemplatestable.app */;
+			name = "KaizenCaseStudy";
+			productName = "KaizenCaseStudy";
+			productReference = 13B07F961A680F5B00A75B9A /* KaizenCaseStudy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rntemplatestable" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "KaizenCaseStudy" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* rntemplatestable */,
-				00E356ED1AD99517003FC87E /* rntemplatestableTests */,
+				13B07F861A680F5B00A75B9A /* KaizenCaseStudy */,
+				00E356ED1AD99517003FC87E /* KaizenCaseStudyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,15 +308,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable/Pods-rntemplatestable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy/Pods-KaizenCaseStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable/Pods-rntemplatestable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy/Pods-KaizenCaseStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable/Pods-rntemplatestable-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy/Pods-KaizenCaseStudy-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -334,7 +334,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rntemplatestable-rntemplatestableTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KaizenCaseStudy-KaizenCaseStudyTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -356,7 +356,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rntemplatestable-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KaizenCaseStudy-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -369,15 +369,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable-rntemplatestableTests/Pods-rntemplatestable-rntemplatestableTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable-rntemplatestableTests/Pods-rntemplatestable-rntemplatestableTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable-rntemplatestableTests/Pods-rntemplatestable-rntemplatestableTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -386,15 +386,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable/Pods-rntemplatestable-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy/Pods-KaizenCaseStudy-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable/Pods-rntemplatestable-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy/Pods-KaizenCaseStudy-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable/Pods-rntemplatestable-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy/Pods-KaizenCaseStudy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -403,15 +403,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable-rntemplatestableTests/Pods-rntemplatestable-rntemplatestableTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable-rntemplatestableTests/Pods-rntemplatestable-rntemplatestableTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rntemplatestable-rntemplatestableTests/Pods-rntemplatestable-rntemplatestableTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -421,7 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* rntemplatestableTests.m in Sources */,
+				00E356F31AD99517003FC87E /* KaizenCaseStudyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +439,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* rntemplatestable */;
+			target = 13B07F861A680F5B00A75B9A /* KaizenCaseStudy */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -447,14 +447,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-rntemplatestable-rntemplatestableTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-KaizenCaseStudy-KaizenCaseStudyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = rntemplatestableTests/Info.plist;
+				INFOPLIST_FILE = "KaizenCaseStudyTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,19 +466,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.kcs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rntemplatestable.app/rntemplatestable";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaizenCaseStudy.app/KaizenCaseStudy";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-rntemplatestable-rntemplatestableTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = rntemplatestableTests/Info.plist;
+				INFOPLIST_FILE = "KaizenCaseStudyTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,21 +490,22 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.kcs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rntemplatestable.app/rntemplatestable";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaizenCaseStudy.app/KaizenCaseStudy";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-rntemplatestable.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-KaizenCaseStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = rntemplatestable/Info.plist;
+				INFOPLIST_FILE = "KaizenCaseStudy/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "KaizenCaseStudy";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -515,8 +516,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rntemplatestable;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.kcs";
+				PRODUCT_NAME = "KaizenCaseStudy";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -525,12 +526,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-rntemplatestable.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-KaizenCaseStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = rntemplatestable/Info.plist;
+				INFOPLIST_FILE = "KaizenCaseStudy/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "KaizenCaseStudy";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -541,8 +543,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rntemplatestable;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.kcs";
+				PRODUCT_NAME = "KaizenCaseStudy";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -702,7 +704,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rntemplatestableTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KaizenCaseStudyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -711,7 +713,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rntemplatestable" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "KaizenCaseStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -720,7 +722,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rntemplatestable" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "KaizenCaseStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
