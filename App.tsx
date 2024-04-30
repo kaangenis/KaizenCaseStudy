@@ -12,6 +12,7 @@ import Onboarding from './src/Routes/Onboarding/Onboarding';
 //Redux
 import { Provider } from 'react-redux';
 import { store } from './src/store/store';
+import Splash from './src/Routes/Splash/Splash';
 
 //Creating Stack Navigator
 const Stack = createNativeStackNavigator();
@@ -26,10 +27,10 @@ export default function App() {
           screenOptions={{
             headerShown: false
           }}
-          initialRouteName='Onboarding'>
+          initialRouteName='Splash'>
           <Stack.Screen
-            name="Onboarding"
-            component={Onboarding} />
+            name="Splash"
+            component={Splash} />
           <Stack.Screen
             name="Home"
             component={Home} />
