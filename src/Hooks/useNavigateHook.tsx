@@ -22,6 +22,10 @@ export const useNavigateHook = () => {
         navigation.replace(screen);
     };
 
+    const replaceWithParams = (screen: string, params: any) => {
+        navigation.replace(screen, params);
+    };
+
     const goBack = () => {
         navigation.goBack();
     };
@@ -43,6 +47,7 @@ export const useNavigateHook = () => {
     return {
         navigate,
         replace,
+        replaceWithParams,
         goBack,
         reset,
         navigateWithParams,
