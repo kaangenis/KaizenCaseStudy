@@ -1,4 +1,4 @@
-package com.rntemplatestable
+package com.kg.kcs
 
 import android.app.Application
 import com.facebook.react.PackageList
