@@ -29,20 +29,20 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = "KaizenCaseStudy";
+			remoteInfo = KaizenCaseStudy;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* KaizenCaseStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KaizenCaseStudyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* KaizenCaseStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaizenCaseStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* KaizenCaseStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KaizenCaseStudyTests.m"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* KaizenCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KaizenCaseStudy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "KaizenCaseStudy/AppDelegate.h"; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "KaizenCaseStudy/AppDelegate.mm"; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "KaizenCaseStudy/Images.xcassets"; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "KaizenCaseStudy/Info.plist"; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "KaizenCaseStudy/main.m"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* KaizenCaseStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaizenCaseStudyTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* KaizenCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaizenCaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KaizenCaseStudy/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = KaizenCaseStudy/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KaizenCaseStudy/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KaizenCaseStudy/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KaizenCaseStudy/main.m; sourceTree = "<group>"; };
 		193A8D10B2FC42D3990FF63B /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-KaizenCaseStudy-KaizenCaseStudyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KaizenCaseStudy-KaizenCaseStudyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7672FDE4324E2A98BE68CA /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-KaizenCaseStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KaizenCaseStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61638CDE7948498AB76EDE85 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
 		798C97A88D504304A30581EF /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "KaizenCaseStudy/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = KaizenCaseStudy/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85B916015AEB4EE28C9225B9 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig"; path = "Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -86,7 +86,7 @@
 				00E356F21AD99517003FC87E /* KaizenCaseStudyTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = "KaizenCaseStudyTests";
+			path = KaizenCaseStudyTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -107,7 +107,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = "KaizenCaseStudy";
+			name = KaizenCaseStudy;
 			sourceTree = "<group>";
 		};
 		2A882AECFFB4436FBEC49616 /* Resources */ = {
@@ -197,8 +197,7 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = "KaizenCaseStudyTests";
-			productname = "KaizenCaseStudyTests";
+			name = KaizenCaseStudyTests;
 			productReference = 00E356EE1AD99517003FC87E /* KaizenCaseStudyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -218,8 +217,8 @@
 			);
 			dependencies = (
 			);
-			name = "KaizenCaseStudy";
-			productName = "KaizenCaseStudy";
+			name = KaizenCaseStudy;
+			productName = KaizenCaseStudy;
 			productReference = 13B07F961A680F5B00A75B9A /* KaizenCaseStudy.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -454,7 +453,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "KaizenCaseStudyTests/Info.plist";
+				INFOPLIST_FILE = KaizenCaseStudyTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,7 +465,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.kcs";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.kcs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaizenCaseStudy.app/KaizenCaseStudy";
 			};
@@ -478,7 +477,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = "KaizenCaseStudyTests/Info.plist";
+				INFOPLIST_FILE = KaizenCaseStudyTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +489,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.kcs";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.kcs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaizenCaseStudy.app/KaizenCaseStudy";
 			};
@@ -504,8 +503,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "KaizenCaseStudy/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "KaizenCaseStudy";
+				INFOPLIST_FILE = KaizenCaseStudy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KaizenCaseStudy;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,8 +515,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.kcs";
-				PRODUCT_NAME = "KaizenCaseStudy";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.kcs;
+				PRODUCT_NAME = KaizenCaseStudy;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -531,8 +530,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "KaizenCaseStudy/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "KaizenCaseStudy";
+				INFOPLIST_FILE = KaizenCaseStudy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KaizenCaseStudy;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,8 +542,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kg.kcs";
-				PRODUCT_NAME = "KaizenCaseStudy";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.kcs;
+				PRODUCT_NAME = KaizenCaseStudy;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
