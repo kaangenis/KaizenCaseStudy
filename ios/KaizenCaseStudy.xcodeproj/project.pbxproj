@@ -8,19 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* KaizenCaseStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KaizenCaseStudyTests.m */; };
-		0B608512AE27480EA09F5CF9 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A7672FDE4324E2A98BE68CA /* OpenSans-SemiBold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-KaizenCaseStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-KaizenCaseStudy.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1B5FC5A6FAD0437EA8249278 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3223E224B366425E9B301731 /* OpenSans-Light.ttf */; };
-		522F22D934C148A593FBBA91 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61638CDE7948498AB76EDE85 /* OpenSans-Italic.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-KaizenCaseStudy-KaizenCaseStudyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-KaizenCaseStudy-KaizenCaseStudyTests.a */; };
-		79C9EC091E3B4CD1B3063F68 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF6500D0D7BF4725A5C0D170 /* OpenSans-Bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E21F40D7E87D4A8C9C73D8D9 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 193A8D10B2FC42D3990FF63B /* OpenSans-Medium.ttf */; };
-		E2993158F7AB41EA91078C8A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798C97A88D504304A30581EF /* OpenSans-Regular.ttf */; };
-		F6FF6FF412674DA4AA950930 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85B916015AEB4EE28C9225B9 /* OpenSans-ExtraBold.ttf */; };
+		1C73E8B5629045EC8B27F7FB /* Helvetica-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B880A1AEE592408CBCF0C24F /* Helvetica-400.ttf */; };
+		BA0A561AEC1A48608BD1530D /* Helvetica-700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40636B8A9D044847ABED654A /* Helvetica-700.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,21 +38,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KaizenCaseStudy/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KaizenCaseStudy/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KaizenCaseStudy/main.m; sourceTree = "<group>"; };
-		193A8D10B2FC42D3990FF63B /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-KaizenCaseStudy-KaizenCaseStudyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KaizenCaseStudy-KaizenCaseStudyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A7672FDE4324E2A98BE68CA /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		3223E224B366425E9B301731 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-KaizenCaseStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaizenCaseStudy.debug.xcconfig"; path = "Target Support Files/Pods-KaizenCaseStudy/Pods-KaizenCaseStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-KaizenCaseStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaizenCaseStudy.release.xcconfig"; path = "Target Support Files/Pods-KaizenCaseStudy/Pods-KaizenCaseStudy.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-KaizenCaseStudy-KaizenCaseStudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaizenCaseStudy-KaizenCaseStudyTests.debug.xcconfig"; path = "Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-KaizenCaseStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KaizenCaseStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61638CDE7948498AB76EDE85 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
-		798C97A88D504304A30581EF /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = KaizenCaseStudy/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85B916015AEB4EE28C9225B9 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig"; path = "Target Support Files/Pods-KaizenCaseStudy-KaizenCaseStudyTests/Pods-KaizenCaseStudy-KaizenCaseStudyTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EF6500D0D7BF4725A5C0D170 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		B880A1AEE592408CBCF0C24F /* Helvetica-400.ttf */ = {isa = PBXFileReference; name = "Helvetica-400.ttf"; path = "../assets/fonts/Helvetica-400.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		40636B8A9D044847ABED654A /* Helvetica-700.ttf */ = {isa = PBXFileReference; name = "Helvetica-700.ttf"; path = "../assets/fonts/Helvetica-700.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,16 +103,10 @@
 		2A882AECFFB4436FBEC49616 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EF6500D0D7BF4725A5C0D170 /* OpenSans-Bold.ttf */,
-				85B916015AEB4EE28C9225B9 /* OpenSans-ExtraBold.ttf */,
-				61638CDE7948498AB76EDE85 /* OpenSans-Italic.ttf */,
-				3223E224B366425E9B301731 /* OpenSans-Light.ttf */,
-				193A8D10B2FC42D3990FF63B /* OpenSans-Medium.ttf */,
-				798C97A88D504304A30581EF /* OpenSans-Regular.ttf */,
-				1A7672FDE4324E2A98BE68CA /* OpenSans-SemiBold.ttf */,
+				B880A1AEE592408CBCF0C24F /* Helvetica-400.ttf */,
+				40636B8A9D044847ABED654A /* Helvetica-700.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -198,6 +182,7 @@
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
 			name = KaizenCaseStudyTests;
+			productName = KaizenCaseStudyTests;
 			productReference = 00E356EE1AD99517003FC87E /* KaizenCaseStudyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -272,13 +257,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				79C9EC091E3B4CD1B3063F68 /* OpenSans-Bold.ttf in Resources */,
-				F6FF6FF412674DA4AA950930 /* OpenSans-ExtraBold.ttf in Resources */,
-				522F22D934C148A593FBBA91 /* OpenSans-Italic.ttf in Resources */,
-				1B5FC5A6FAD0437EA8249278 /* OpenSans-Light.ttf in Resources */,
-				E21F40D7E87D4A8C9C73D8D9 /* OpenSans-Medium.ttf in Resources */,
-				E2993158F7AB41EA91078C8A /* OpenSans-Regular.ttf in Resources */,
-				0B608512AE27480EA09F5CF9 /* OpenSans-SemiBold.ttf in Resources */,
+				1C73E8B5629045EC8B27F7FB /* Helvetica-400.ttf in Resources */,
+				BA0A561AEC1A48608BD1530D /* Helvetica-700.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,10 +598,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -689,10 +666,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
