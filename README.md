@@ -25,6 +25,8 @@ Build Recommandations:
 *in project path:
 - "cd ios"
 - open .
+
+
 *double click "KaizenCaseStudy.xcworkspace"
 
 Select the device you want to use and then (CMD + R) run the project.
