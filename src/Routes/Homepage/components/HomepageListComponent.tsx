@@ -1,8 +1,13 @@
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
-import { colors } from '../../../Configs/colors';
+import {
+    Image,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+} from 'react-native'
 import { useSelector } from 'react-redux';
 import { useHomepageHook } from '../useHomepageHook';
+import { colors } from '../../../Configs/colors';
 
 interface HomepageListComponentProps {
     title: string;
@@ -13,7 +18,6 @@ interface HomepageListComponentProps {
 const HomepageListComponent = ({
     title,
     iconURL,
-    constantIcon
 }: HomepageListComponentProps) => {
     const { filterTags } = useHomepageHook();
     const selectedTag = useSelector((state: any) => state.slicerTitle.value.selectedTag);
