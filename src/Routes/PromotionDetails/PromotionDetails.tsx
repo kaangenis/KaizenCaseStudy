@@ -12,7 +12,9 @@ import { useSelector } from 'react-redux';
 import { colors } from '../../Configs/colors';
 
 const PromotionDetails = ({ route }: any) => {
-    const { Id } = route.params;
+    const { Id, SeoName } = route.params;
+    console.log("Id:", Id)
+    console.log("SeoName:", SeoName)
 
     const {
         getPromotionDetailsAndSetState,

@@ -48,8 +48,8 @@ export const useHomepageHook = () => {
         }
     };
 
-    const navigateToPromotionDetails = (Id: number) => {
-        navigateWithParams('PromotionDetails', { Id: Id });
+    const navigateToPromotionDetails = (Id: number, SeoName: string) => {
+        navigateWithParams('PromotionDetails', { Id: Id, SeoName: SeoName });
     };
 
     return {
