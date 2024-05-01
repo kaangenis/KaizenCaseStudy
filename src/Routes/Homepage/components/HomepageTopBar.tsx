@@ -1,6 +1,7 @@
 import React from 'react'
 import {
     Dimensions,
+    Platform,
     StyleSheet,
     Text,
     TouchableOpacity,
@@ -12,7 +13,14 @@ import { colors } from '../../../Configs/colors'
 
 const HomepageTopBar = () => {
     return (
-        <View style={[styles.main, { marginTop: Dimensions.get('screen').height < 668 ? 10 : 0 }]}>
+        <View style={
+            Platform.OS === 'android'
+                ? styles.main_android
+                : [styles.main, {
+                    marginTop: Dimensions.get('screen').height < 668
+                        ? 10
+                        : 0
+                }]}>
             <DahaDahaIcon
                 height={40}
                 width={81} />
@@ -37,6 +45,15 @@ export default HomepageTopBar
 const styles = StyleSheet.create({
     main: {
         width: Dimensions.get('window').width - 30,
+        height: 40,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginBottom: 20
+    },
+    main_android: {
+        width: Dimensions.get('window').width - 30,
+        marginTop: 10,
         height: 40,
         flexDirection: 'row',
         justifyContent: 'space-between',
