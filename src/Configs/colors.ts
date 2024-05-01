@@ -5,4 +5,5 @@ export const colors = {
     primaryRed: '#F40000',
     primaryGreen: '#009639',
     primaryGray: '#D8D8D8',
+    softGray: '#ECEEEF',
 };

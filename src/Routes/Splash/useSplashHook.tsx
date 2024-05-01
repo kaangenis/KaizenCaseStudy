@@ -12,9 +12,9 @@ export const useSplashHook = () => {
         //Example:
         //await AsyncStorage.getItem('isUserLoggedIn');
         setTimeout(() => {
-            //After operations completed, setSplashLoadingCompleted(true) and navigate to Home screen.;
+            //After operations completed, setSplashLoadingCompleted(true) and navigate to Homepage.;
             setSplashLoadingCompleted(true);
-            reset('Home');
+            reset('BottomTabs');
         }, 2000);
     };
 
