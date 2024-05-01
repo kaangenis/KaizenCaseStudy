@@ -32,7 +32,7 @@ const HomepageMainContent = () => {
                     data={homepagePromotions}
                     renderItem={({ item, index }) =>
                         <HomepagePromotionComponent
-                            onPress={() => { navigateToPromotionDetails(item.Id) }}
+                            onPress={() => { navigateToPromotionDetails(item.Id, item.SeoName) }}
                             imageURL={item.ImageUrl}
                             brandURL={item.BrandIconUrl}
                             brandIconColor={item.BrandIconColor}
