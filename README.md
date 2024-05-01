@@ -41,6 +41,16 @@ There's no complicated things in android build.
 in project path
 - npm run android
 
+Extra Things:
+
+- App Name changed,
+- App Icon added,
+- App Splash added,
+- In App Splash added,
+- BundleID is ready for publish,
+- "Portal" and "Wallet" pages added,
+- "Filter Promotions" feature is not avaible for this version because of the filter values that coming from API is not equal to each other. 
+
 This project using 3rd party libraries.
 Libraries listed in below.
 
