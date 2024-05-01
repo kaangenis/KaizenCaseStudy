@@ -39,7 +39,7 @@ After the emulator ready and project installed the device successfully go to ter
 There's no complicated things in android build.
 
 in project path
->npm run android
+- npm run android
 
 This project using 3rd party libraries.
 Libraries listed in below.
