@@ -1,8 +1,13 @@
-import { Dimensions, FlatList, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { useHomepageHook } from '../useHomepageHook';
+import {
+    Dimensions,
+    FlatList,
+    StyleSheet,
+    View
+} from 'react-native'
 import HomepageListComponent from './HomepageListComponent';
 import LoadingComponent from '../../../Components/LoadingComponent';
+import { useHomepageHook } from '../useHomepageHook';
 import { colors } from '../../../Configs/colors';
 
 const HomepageListSection = () => {
@@ -26,10 +31,11 @@ const HomepageListSection = () => {
                     showsHorizontalScrollIndicator={false}
                     horizontal={true}
                     data={homepageTagItems}
-                    renderItem={({ item }) =>
+                    renderItem={({ item, index }) =>
                         <HomepageListComponent
                             title={item.Name}
                             iconURL={item.IconUrl}
+                            key={index.toString()}
                         />
                     }
                 />
