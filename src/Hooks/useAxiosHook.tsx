@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import { setHomepageTagItems, setHomepageTagItemsLoading } from "../store/slicer";
+import { setHomepagePromotions, setHomepagePromotionsLoading, setHomepageTagItems, setHomepageTagItemsLoading } from "../store/slicer";
 import SearchIcon from '../../assets/svg/homepage_icons/SearchIcon.svg'
 
 export const useAxiosHook = () => {
@@ -29,7 +29,7 @@ export const useAxiosHook = () => {
         const url = `${baseURL}${endpoints.LIST_TAGS}`;
         await axios.get(url, { headers })
             .then((response) => {
-                console.log(response.data);
+                console.log("TAGS:", response.data);
                 response.data.unshift({
                     Name: 'Fırsat Bul',
                     IconUrl: <SearchIcon style={constantIcon} />,
@@ -40,11 +40,26 @@ export const useAxiosHook = () => {
                 dispatch(setHomepageTagItemsLoading(false));
             })
             .catch((error) => {
-                console.log(error);
+                console.log("LIST_TAGS_ERROR_AT_AXIOS_HOOK:", error);
+            });
+    };
+
+    const getPromotions = async () => {
+        dispatch(setHomepagePromotionsLoading(true));
+        const url = `${baseURL}${endpoints.LIST_PROMOTIONS}`;
+        await axios.get(url, { headers })
+            .then((response) => {
+                console.log(response.data);
+                dispatch(setHomepagePromotions(response.data));
+                dispatch(setHomepagePromotionsLoading(false));
+            })
+            .catch((error) => {
+                console.log("LIST_PROMOTIONS_ERROR_AT_AXIOS_HOOK:", error);
             });
     };
 
     return {
         getTagsList,
+        getPromotions,
     }
 };

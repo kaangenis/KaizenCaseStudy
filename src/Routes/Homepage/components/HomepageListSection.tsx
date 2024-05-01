@@ -2,14 +2,27 @@ import { Dimensions, FlatList, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { useHomepageHook } from '../useHomepageHook';
 import HomepageListComponent from './HomepageListComponent';
-import SearchIcon from '../../../../assets/svg/homepage_icons/SearchIcon.svg';
+import LoadingComponent from '../../../Components/LoadingComponent';
+import { colors } from '../../../Configs/colors';
 
 const HomepageListSection = () => {
-    const { homepageTagItems } = useHomepageHook();
+    const {
+        homepageTagItems,
+        homepageTagItemsLoading
+    } = useHomepageHook();
+    if (homepageTagItemsLoading === true || homepageTagItems === null) {
+        return (
+            <LoadingComponent
+                style={styles.my_25}
+                indicatorSize='small'
+                indicatorColor={colors.primaryRed} />
+        )
+    }
     return (
         <View style={styles.main}>
             <View style={styles.mr_10}>
                 <FlatList
+                    pagingEnabled
                     showsHorizontalScrollIndicator={false}
                     horizontal={true}
                     data={homepageTagItems}
@@ -35,7 +48,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         marginVertical: 10,
-        left: 15
+        left: 10
     },
     mr_10: {
         marginRight: 15,
@@ -43,4 +56,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
+    my_25: {
+        marginVertical: 25
+    }
 })
