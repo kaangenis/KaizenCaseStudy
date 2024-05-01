@@ -2,13 +2,12 @@ import React, { useEffect } from 'react'
 import {
     SafeAreaView,
     StyleSheet,
-    View
 } from 'react-native'
 import HomepageTopBar from './components/HomepageTopBar'
 import HomepageListSection from './components/HomepageListSection'
+import HomepageMainContent from './components/HomepageMainContent'
 import { useHomepageHook } from './useHomepageHook'
 import { colors } from '../../Configs/colors'
-import HomepageMainContent from './components/HomepageMainContent'
 
 const Homepage = () => {
     const {

@@ -1,16 +1,19 @@
-import { SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native'
 import React, { useEffect } from 'react'
-import { useAxiosHook } from '../../Hooks/useAxiosHook';
+import {
+    StyleSheet,
+    View
+} from 'react-native'
 import PromotionDetailsImageBG from './components/PromotionDetailsImageBG';
-import { usePromotionDetailsHook } from './usePromotionDetailsHook';
-import { useSelector } from 'react-redux';
 import LoadingComponent from '../../Components/LoadingComponent';
 import PromotionDetailsContent from './components/PromotionDetailsContent';
-import { colors } from '../../Configs/colors';
 import PromotionJoinButton from './components/PromotionJoinButton';
+import { usePromotionDetailsHook } from './usePromotionDetailsHook';
+import { useSelector } from 'react-redux';
+import { colors } from '../../Configs/colors';
 
 const PromotionDetails = ({ route }: any) => {
     const { Id } = route.params;
+
     const {
         getPromotionDetailsAndSetState,
         promotionDetails
@@ -29,8 +32,7 @@ const PromotionDetails = ({ route }: any) => {
         )
     }
     return (
-        <SafeAreaView style={styles.main}>
-            <StatusBar hidden />
+        <View style={styles.main}>
             <PromotionDetailsImageBG
                 RemainingText={promotionDetails?.RemainingText}
                 bgURL={promotionDetails?.ImageUrl}
@@ -44,7 +46,7 @@ const PromotionDetails = ({ route }: any) => {
             <PromotionJoinButton
                 title={promotionDetails?.DetailButtonText}
             />
-        </SafeAreaView>
+        </View>
     )
 }
 
