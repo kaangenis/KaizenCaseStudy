@@ -5,6 +5,7 @@ import { useNavigateHook } from "../../Hooks/useNavigateHook";
 
 export const useHomepageHook = () => {
     const {
+        navigate,
         navigateWithParams,
     } = useNavigateHook();
     const dispatch = useDispatch();
@@ -39,9 +40,12 @@ export const useHomepageHook = () => {
     };
 
     const filterTags = (tag: String) => {
-        tag === 'Fırsat Bul'
-            ? dispatch(setSelectedTag(null))
-            : dispatch(setSelectedTag(tag))
+        if (tag === 'Fırsat Bul') {
+            dispatch(setSelectedTag(null))
+            navigate('Portal')
+        } else {
+            dispatch(setSelectedTag(tag))
+        }
     };
 
     const navigateToPromotionDetails = (Id: number) => {

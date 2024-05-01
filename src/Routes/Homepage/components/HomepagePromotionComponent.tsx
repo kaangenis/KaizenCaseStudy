@@ -6,9 +6,8 @@ import {
     StyleSheet,
     TouchableOpacity,
 } from 'react-native'
-import dayjs from 'dayjs'
-import { colors } from '../../../Configs/colors'
 import { useDateTimeHook } from '../../../Hooks/useDateHook'
+import { colors } from '../../../Configs/colors'
 
 interface HomepagePromotionComponentProps {
     imageURL: string,
@@ -53,7 +52,9 @@ const HomepagePromotionComponent = ({
             </View>
             <View style={styles.my_10}>
                 <Text style={styles.description}>{clearDescription}</Text>
-                <TouchableOpacity>
+                <TouchableOpacity
+                    activeOpacity={0.25}
+                    onPress={onPress}>
                     <Text style={[styles.description, { color: textColor }]}>Daha Daha</Text>
                 </TouchableOpacity>
             </View>

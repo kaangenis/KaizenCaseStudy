@@ -3,6 +3,7 @@ import {
     Animated,
     Dimensions,
     FlatList,
+    Platform,
     StyleSheet,
     View
 } from 'react-native'
@@ -10,8 +11,8 @@ import HomepagePromotionComponent from './HomepagePromotionComponent'
 import LoadingComponent from '../../../Components/LoadingComponent'
 import HomepagePaginator from './HomepagePaginator'
 import { useSelector } from 'react-redux'
-import { colors } from '../../../Configs/colors'
 import { useHomepageHook } from '../useHomepageHook'
+import { colors } from '../../../Configs/colors'
 
 const HomepageMainContent = () => {
     const { navigateToPromotionDetails } = useHomepageHook();
@@ -26,32 +27,36 @@ const HomepageMainContent = () => {
     }
     return (
         <View style={styles.main}>
-            <FlatList
-                data={homepagePromotions}
-                renderItem={({ item, index }) =>
-                    <HomepagePromotionComponent
-                        onPress={() => { navigateToPromotionDetails(item.Id) }}
-                        imageURL={item.ImageUrl}
-                        brandURL={item.BrandIconUrl}
-                        brandIconColor={item.BrandIconColor}
-                        badgeTitle={item.RemainingText}
-                        description={item.Title}
-                        textColor={item.ListButtonTextBackGroudColor}
-                        key={index.toString()}
-                    />
-                }
-                keyExtractor={item => item.id}
-                horizontal={true}
-                onScroll={Animated.event(
-                    [{ nativeEvent: { contentOffset: { x: scrollX } } }],
-                    { useNativeDriver: false },
-                )}
-                showsHorizontalScrollIndicator={false}
-            />
-            <HomepagePaginator
-                scrollX={scrollX}
-                data={homepagePromotions}
-            />
+            <View style={styles.deviceResponsive}>
+                <FlatList
+                    data={homepagePromotions}
+                    renderItem={({ item, index }) =>
+                        <HomepagePromotionComponent
+                            onPress={() => { navigateToPromotionDetails(item.Id) }}
+                            imageURL={item.ImageUrl}
+                            brandURL={item.BrandIconUrl}
+                            brandIconColor={item.BrandIconColor}
+                            badgeTitle={item.RemainingText}
+                            description={item.Title}
+                            textColor={item.ListButtonTextBackGroudColor}
+                            key={index.toString()}
+                        />
+                    }
+                    keyExtractor={item => item.id}
+                    horizontal={true}
+                    onScroll={Animated.event(
+                        [{ nativeEvent: { contentOffset: { x: scrollX } } }],
+                        { useNativeDriver: false },
+                    )}
+                    showsHorizontalScrollIndicator={false}
+                />
+            </View>
+            <View style={styles.paginator}>
+                <HomepagePaginator
+                    scrollX={scrollX}
+                    data={homepagePromotions}
+                />
+            </View>
         </View>
     )
 }
@@ -65,5 +70,21 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         flexDirection: 'column',
         width: Dimensions.get('window').width - 20,
+    },
+    deviceResponsive: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: Dimensions.get('window').width - 20,
+        marginTop: Dimensions.get('window').height < 668
+            ? 0
+            : Dimensions.get('window').height * 0.05,
+    },
+    paginator: {
+        bottom: Dimensions.get('window').height < 668
+            ? 0
+            : Platform.OS === 'android'
+                ? Dimensions.get('window').height * 0.0875
+                : Dimensions.get('window').height * 0.15,
     }
 })

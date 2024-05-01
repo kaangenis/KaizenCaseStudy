@@ -15,7 +15,6 @@ export const usePromotionDetailsHook = () => {
     const getPromotionDetailsAndSetState = async (id: number) => {
         dispatch(setHomepagePromotionsLoading(true));
         const response = await getPromotionDetails(id);
-        console.log("PROMOTION_DETAILS_RESPONSE:", response);
         setPromotionDetails(response);
         dispatch(setHomepagePromotionsLoading(false));
     };
