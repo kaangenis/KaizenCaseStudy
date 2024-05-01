@@ -1,8 +1,12 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useAxiosHook } from "../../Hooks/useAxiosHook";
 import { setSelectedTag } from "../../store/slicer";
+import { useNavigateHook } from "../../Hooks/useNavigateHook";
 
 export const useHomepageHook = () => {
+    const {
+        navigateWithParams,
+    } = useNavigateHook();
     const dispatch = useDispatch();
     const homepageTagItems = useSelector((state: any) => state.slicerTitle.value.homepageTagItems);
     const homepageTagItemsLoading = useSelector((state: any) => state.slicerTitle.value.homepageTagItemsLoading);
@@ -40,6 +44,10 @@ export const useHomepageHook = () => {
             : dispatch(setSelectedTag(tag))
     };
 
+    const navigateToPromotionDetails = (Id: number) => {
+        navigateWithParams('PromotionDetails', { Id: Id });
+    };
+
     return {
         homepageTagItems,
         homepageTagItemsLoading,
@@ -47,5 +55,6 @@ export const useHomepageHook = () => {
         checkTagsStateAndDispatch,
         filterTags,
         checkPromotionsStateAndDispatch,
+        navigateToPromotionDetails,
     }
 };

@@ -8,6 +8,7 @@ import {
 } from 'react-native'
 import dayjs from 'dayjs'
 import { colors } from '../../../Configs/colors'
+import { useDateTimeHook } from '../../../Hooks/useDateHook'
 
 interface HomepagePromotionComponentProps {
     imageURL: string,
@@ -15,8 +16,8 @@ interface HomepagePromotionComponentProps {
     brandIconColor: string,
     badgeTitle: string,
     description: string,
-    id: string
     textColor: string,
+    onPress: () => void
 }
 
 const HomepagePromotionComponent = ({
@@ -25,25 +26,17 @@ const HomepagePromotionComponent = ({
     brandIconColor,
     badgeTitle,
     description,
-    id,
     textColor,
+    onPress
 }: HomepagePromotionComponentProps) => {
+    const { calculateRemainingText } = useDateTimeHook();
     let clearDescription = description.replace(/<[^>]*>?/gm, '');
     if (clearDescription.includes('K&uuml;tahya')) {
         clearDescription = clearDescription.replace('K&uuml;tahya', 'Kütahya');
     }
-    const calculateRemainingText = (remainingText: string) => {
-        const replacedText = remainingText.replaceAll('.', '-');
-        const splittedText = replacedText.split('-');
-        const partsOfText = splittedText[2] + '-' + splittedText[1] + '-' + splittedText[0];
-        const unixTimestamp = dayjs(partsOfText, 'YYYY-MM-DD').unix();
-        const currentTime = dayjs().unix();
-        const remainingTime = unixTimestamp - currentTime;
-        const remainingDay = Math.floor(remainingTime / 86400);
-        return remainingDay + ' Gün Kaldı';
-    };
     return (
         <TouchableOpacity
+            onPress={onPress}
             activeOpacity={0.9}
             style={[styles.main, { shadowColor: textColor }]}>
             <Image

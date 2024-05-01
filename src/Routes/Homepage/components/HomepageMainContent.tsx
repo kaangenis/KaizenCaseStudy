@@ -1,13 +1,20 @@
-import { Animated, Dimensions, FlatList, ScrollView, StyleSheet, Text, View } from 'react-native'
 import React, { useRef } from 'react'
+import {
+    Animated,
+    Dimensions,
+    FlatList,
+    StyleSheet,
+    View
+} from 'react-native'
 import HomepagePromotionComponent from './HomepagePromotionComponent'
-import { useSelector } from 'react-redux'
-import ConditionalRendering from '../../../Components/ConditionalRendering'
 import LoadingComponent from '../../../Components/LoadingComponent'
-import { colors } from '../../../Configs/colors'
 import HomepagePaginator from './HomepagePaginator'
+import { useSelector } from 'react-redux'
+import { colors } from '../../../Configs/colors'
+import { useHomepageHook } from '../useHomepageHook'
 
 const HomepageMainContent = () => {
+    const { navigateToPromotionDetails } = useHomepageHook();
     const homepagePromotions = useSelector((state: any) => state.slicerTitle.value.homepagePromotions);
     const homepagePromotionsLoading = useSelector((state: any) => state.slicerTitle.value.homepagePromotionsLoading);
     const scrollX = useRef(new Animated.Value(0)).current;
@@ -23,13 +30,13 @@ const HomepageMainContent = () => {
                 data={homepagePromotions}
                 renderItem={({ item, index }) =>
                     <HomepagePromotionComponent
+                        onPress={() => { navigateToPromotionDetails(item.Id) }}
                         imageURL={item.ImageUrl}
                         brandURL={item.BrandIconUrl}
                         brandIconColor={item.BrandIconColor}
                         badgeTitle={item.RemainingText}
                         description={item.Title}
                         textColor={item.ListButtonTextBackGroudColor}
-                        id={item.Id}
                         key={index.toString()}
                     />
                 }

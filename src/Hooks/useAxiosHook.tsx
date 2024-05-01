@@ -29,7 +29,6 @@ export const useAxiosHook = () => {
         const url = `${baseURL}${endpoints.LIST_TAGS}`;
         await axios.get(url, { headers })
             .then((response) => {
-                console.log("TAGS:", response.data);
                 response.data.unshift({
                     Name: 'Fırsat Bul',
                     IconUrl: <SearchIcon style={constantIcon} />,
@@ -49,7 +48,6 @@ export const useAxiosHook = () => {
         const url = `${baseURL}${endpoints.LIST_PROMOTIONS}`;
         await axios.get(url, { headers })
             .then((response) => {
-                console.log(response.data);
                 dispatch(setHomepagePromotions(response.data));
                 dispatch(setHomepagePromotionsLoading(false));
             })
@@ -58,8 +56,20 @@ export const useAxiosHook = () => {
             });
     };
 
+    const getPromotionDetails = async (Id: number) => {
+        try {
+            const url = `${baseURL}${endpoints.PROMOTION_DETAILS.replace('{Id}', Id.toString())}`;
+            const response = await axios.get(url, { headers })
+            return response.data;
+        }
+        catch (error) {
+            console.log("PROMOTION_DETAILS_ERROR_AT_AXIOS_HOOK:", error);
+        }
+    };
+
     return {
         getTagsList,
         getPromotions,
+        getPromotionDetails,
     }
 };
