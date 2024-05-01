@@ -7,6 +7,7 @@ type InitialState = {
         selectedTag: string | null;
         homepagePromotions: Array<any> | null;
         homepagePromotionsLoading: boolean;
+        promotionDetailsLoading: boolean;
     };
 };
 
@@ -17,6 +18,7 @@ const initialState = {
         selectedTag: null,
         homepagePromotions: null,
         homepagePromotionsLoading: true,
+        promotionDetailsLoading: true,
     },
 } as InitialState;
 
@@ -39,6 +41,9 @@ export const slicerFunction = createSlice({
         setHomepagePromotionsLoading: (state, action) => {
             state.value.homepagePromotionsLoading = action.payload;
         },
+        setPromotionDetailsLoading: (state, action) => {
+            state.value.promotionDetailsLoading = action.payload;
+        },
     },
 });
 
@@ -48,5 +53,6 @@ export const {
     setSelectedTag,
     setHomepagePromotions,
     setHomepagePromotionsLoading,
+    setPromotionDetailsLoading,
 } = slicerFunction.actions;
 export default slicerFunction.reducer;

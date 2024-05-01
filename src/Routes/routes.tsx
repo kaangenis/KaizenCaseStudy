@@ -16,6 +16,7 @@ import Wallet from "./Wallet/Wallet";
 
 //ETC.
 import { colors } from "../Configs/colors";
+import PromotionDetails from "./PromotionDetails/PromotionDetails";
 
 //Configuring Stack and Tab Navigation
 const Stack = createNativeStackNavigator();
@@ -88,7 +89,8 @@ export default function Routes() {
 
     const ROUTES = [
         { name: 'Splash', component: Splash },
-        { name: 'BottomTabs', component: BottomTabs }
+        { name: 'BottomTabs', component: BottomTabs },
+        { name: 'PromotionDetails', component: PromotionDetails },
     ]
 
     return (
