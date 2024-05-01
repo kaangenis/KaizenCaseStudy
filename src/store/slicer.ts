@@ -2,13 +2,17 @@ import { createSlice } from '@reduxjs/toolkit';
 
 type InitialState = {
     value: {
-        testState: number,
+        homepageTagItems: Array<any> | null;
+        homepageTagItemsLoading: boolean;
+        selectedTag: string | null;
     };
 };
 
 const initialState = {
     value: {
-        testState: 0,
+        homepageTagItems: null,
+        homepageTagItemsLoading: true,
+        selectedTag: null,
     },
 } as InitialState;
 
@@ -16,17 +20,21 @@ export const slicerFunction = createSlice({
     name: 'slicerTitle',
     initialState,
     reducers: {
-        increaseTestState: (state) => {
-            state.value.testState += 1;
+        setHomepageTagItems: (state, action) => {
+            state.value.homepageTagItems = action.payload;
         },
-        decreaseTestState: (state) => {
-            state.value.testState -= 1;
+        setHomepageTagItemsLoading: (state, action) => {
+            state.value.homepageTagItemsLoading = action.payload;
+        },
+        setSelectedTag: (state, action) => {
+            state.value.selectedTag = action.payload;
         },
     },
 });
 
 export const {
-    increaseTestState,
-    decreaseTestState,
+    setHomepageTagItems,
+    setHomepageTagItemsLoading,
+    setSelectedTag,
 } = slicerFunction.actions;
 export default slicerFunction.reducer;

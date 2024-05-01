@@ -1,5 +1,11 @@
-import { Dimensions, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
+import {
+    Dimensions,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View
+} from 'react-native'
 import DahaDahaIcon from '../../../../assets/svg/homepage_icons/DahaDahaIcon.svg'
 import ProfileIcon from '../../../../assets/svg/homepage_icons/ProfileIcon.svg'
 import { colors } from '../../../Configs/colors'
@@ -35,7 +41,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        top: 40
+        marginTop: 30,
+        marginBottom: 20
     },
     insideRower: {
         width: 141,
