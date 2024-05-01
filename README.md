@@ -5,14 +5,16 @@ This guide is prepared for a MacBook with an Apple Silicon chip.
 Project's React Native version is 0.73.4.
 
 You can clone the repo via git cli with "git clone https://github.com/kaangenis/KaizenCaseStudy" command.
+
 After successfully cloned the repo on your local you have to install JS libraries and pods.
 
 Installation:
+
 *in project path:
 
 - "npm install"
 - "cd ios"
-- "npx pod install" or "pod install" (If you are using a MacBook with chip Apple Silicon)
+- "npx pod install" or "pod install" (If you are using a MacBook with an Apple Silicon chip.)
 - cd ..
 - npm start
 
@@ -47,7 +49,7 @@ Extra Things:
 - App Icon added,
 - App Splash added,
 - In App Splash added,
-- BundleID is ready for publish,
+- BundleID is ready for deployment (or Test Versions),
 - "Portal" and "Wallet" pages added,
 - "Filter Promotions" feature is not avaible for this version because of the filter values that coming from API is not equal to each other. 
 
