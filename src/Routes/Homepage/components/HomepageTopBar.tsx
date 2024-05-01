@@ -12,7 +12,7 @@ import { colors } from '../../../Configs/colors'
 
 const HomepageTopBar = () => {
     return (
-        <View style={styles.main}>
+        <View style={[styles.main, { marginTop: Dimensions.get('screen').height < 668 ? 10 : 0 }]}>
             <DahaDahaIcon
                 height={40}
                 width={81} />
@@ -41,7 +41,6 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        marginTop: 30,
         marginBottom: 20
     },
     insideRower: {

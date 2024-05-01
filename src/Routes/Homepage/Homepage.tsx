@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import {
+    SafeAreaView,
     StyleSheet,
     View
 } from 'react-native'
@@ -7,15 +8,23 @@ import HomepageTopBar from './components/HomepageTopBar'
 import HomepageListSection from './components/HomepageListSection'
 import { useHomepageHook } from './useHomepageHook'
 import { colors } from '../../Configs/colors'
+import HomepageMainContent from './components/HomepageMainContent'
 
 const Homepage = () => {
-    const { checkTagsStateAndDispatch } = useHomepageHook();
-    useEffect(() => { checkTagsStateAndDispatch() }, []);
+    const {
+        checkTagsStateAndDispatch,
+        checkPromotionsStateAndDispatch,
+    } = useHomepageHook();
+    useEffect(() => {
+        checkTagsStateAndDispatch()
+        checkPromotionsStateAndDispatch()
+    }, []);
     return (
-        <View style={styles.main}>
+        <SafeAreaView style={styles.main}>
             <HomepageTopBar />
             <HomepageListSection />
-        </View>
+            <HomepageMainContent />
+        </SafeAreaView>
     )
 }
 

@@ -5,7 +5,11 @@ import { setSelectedTag } from "../../store/slicer";
 export const useHomepageHook = () => {
     const dispatch = useDispatch();
     const homepageTagItems = useSelector((state: any) => state.slicerTitle.value.homepageTagItems);
-    const { getTagsList } = useAxiosHook();
+    const homepageTagItemsLoading = useSelector((state: any) => state.slicerTitle.value.homepageTagItemsLoading);
+    const {
+        getTagsList,
+        getPromotions,
+    } = useAxiosHook();
 
     const checkTagsStateAndDispatch = () => {
         if (homepageTagItems === null) {
@@ -16,8 +20,18 @@ export const useHomepageHook = () => {
         }
     };
 
+    const checkPromotionsStateAndDispatch = () => {
+        if (homepageTagItems === null) {
+            getPromotions();
+        } else {
+            console.log('Promotions already fetched');
+            return null;
+        }
+    };
+
     const refreshItems = () => {
         getTagsList();
+        getPromotions();
     };
 
     const filterTags = (tag: String) => {
@@ -28,8 +42,10 @@ export const useHomepageHook = () => {
 
     return {
         homepageTagItems,
+        homepageTagItemsLoading,
         refreshItems,
         checkTagsStateAndDispatch,
         filterTags,
+        checkPromotionsStateAndDispatch,
     }
 };
